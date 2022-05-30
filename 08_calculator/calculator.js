@@ -6,14 +6,15 @@ const subtract = function(num1, num2) {
 	return num1 - num2;
 };
 
-const sum = function(sumArray) {
-	return sumArray.reduce((total, currentNumber) => {
+const sum = function(array) {
+	return array.reduce((total, currentNumber) => {
     return total + currentNumber}, 0)
 
 };
 
-const multiply = function() {
-
+const multiply = function(array) {
+  return array.reduce((total, currentNumber) => {
+    return total*currentNumber})
 };
 
 const power = function() {
